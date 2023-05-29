@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+header {
+    background: #353a40;
+    display: inline-block;
+    width: 100%;
+}
+
+.logo {
+    display: inherit;
+}
+
+.logo img {
+    height: 75px;
+    vertical-align: middle;
+    margin-left: 10px;
+
+}
+
+h2 {
+    color: white;
+    display: inline-block;
+    align-items: center;
+}
+
+
+
+nav {
+    
+    float: right;
+    padding: 25px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+   
+}
+
+.boton-comprar {
+    color: green
+}
+
+section {
+    height: 80vh;
+}
+
+section > img {
+    height: 100%;
+    width: 100%;
+}
+
+.container-conf {
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    text-align: right;
+    color: white;
+    width: 50%;
+     
+
+}
+
+.first-paragraph {
+    padding: 10px;    
+    text-align: right;
+    margin-bottom: 10px;
+ }
+
+.enlace-1 {   
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.enlace-2 {   
+    padding: 10px;
+    border: 2px;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.container-conf > h1 {
+    padding: 10px;
+    color: white;
+}
+
+h3, h4 {
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+    display: inline-block;
+    margin-left: 15%;
+    border: solid 1px grey;
+    padding: 20px;
+    
+    
+    
+    }
+    
+.card img {
+    width: 100%;
+    display: inline-block;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 16px;
+    } 
+
+    .card > p {
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+
+   .enlace-3 {   
+    padding: 6px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgb(255, 193, 7);
+    color:black;
+    font-size: small;
+    border: none;
+
+   }
+
+   .enlace-4 {
+    padding: 6px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgb(13, 202, 240);
+    color: black;
+    font-size: small;
+    border: none;
+   }
+
+   .enlace-5 {
+    padding: 6px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    font-size: small;
+    border: none;
+   }
+
+   .enlace-6 {
+    padding: 6px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: small;
+    border: none;
+   }
+
+   .enlace-7 {
+    margin: 15px;
+    padding: px;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    font-size: small;
+    border: none;
+
+
+   }
+
+.lugar {
+    margin-top: 50px;
+    display: flex;
+    background-color: #353a40;
+    color: aliceblue;
+}
+
+.lugar img {
+    width: 50%;
+    height: 400px;    
+}
+
+.contenedor {
+    padding: 10px 20px 30px 40px;
+}
+
+.formulario > p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+.formulario > span {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.formulario > h1 {
+    display: block;
+    text-align: center;
+}
+
+.container {
+  display: inline-flex;
+  align-items: center;
+
+}
+
+ 
+.mensaje {
+    
+    height: 400px;
+  }
+
+.formulario > p {
+    display: block;
+    text-align: left;
+}  
+
+
+.button {
+          background-color:#95c842;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+          display: inline-block;
+          width: calc(100% - 100px);
+          max-width: 400px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .container-fluid.text-center .row {
+            display: flex;
+            background-color: #1c445a;
+            color: white;
+            text-align: center;
+            height: 50PX;
+
+            
+           
+          justify-content: space-between;
+            flex-wrap: wrap;
+          }
+          
+          .container-fluid.text-center .row .col {
+            flex: 1 1 auto;
+            
+           
+          max-width: 1008%;
+          }
+          
+          .container-fluid.text-center .row .col p {
+            
+           
+          margin: 20PX;
+          }
+          
+          
